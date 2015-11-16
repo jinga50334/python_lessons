@@ -11,4 +11,7 @@ for i in range(1,s):
     cnt=d%(10**i)
     if cnt==0:
         cnt=cnt+i
-        print(cnt)
+        l=list()
+        l.append(cnt)
+print('The end 0 total:')
+print(l[-1])
