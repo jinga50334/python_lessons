@@ -1,3 +1,2 @@
-# python_lessons
-# python_lessons
-# python_lessons
+求  1)  1 * 2 * 3 …  120  
+    2)  求上述结果的尾部0 的个数。
