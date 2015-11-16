@@ -8,8 +8,7 @@ for i in range(1,121,1):
     c=c*i
 print('The result is:')
 print(c)
-d=str(c)
-s=len(d)
+s=len(str(c))
 cnt=0
 for i in range(1,s):
     if d[-i]!='0':
