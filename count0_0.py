@@ -9,6 +9,7 @@ for i in range(1,121,1):
 print('The result is:')
 print(c)
 s=len(str(c))
+d=str(c)
 cnt=0
 for i in range(1,s):
     if d[-i]!='0':
