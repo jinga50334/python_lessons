@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
+#1)  1 * 2 * 3 …  120  
+#2)  求上述结果的尾部0 的个数。
+
 c=1
 cnt=0
 for i in range(1,121,1):
