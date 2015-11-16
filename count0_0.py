@@ -12,10 +12,8 @@ d=str(c)
 s=len(d)
 cnt=0
 for i in range(1,s):
-    if d[-i]=='0':
-        cnt=cnt+1
-    else:
+    if d[-i]!='0':
         break
-
+    cnt=cnt+1
 print('The end 0 total:')
 print(cnt)
