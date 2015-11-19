@@ -11,6 +11,16 @@
 #    print(x)
 ###########################
 d=dict()
-for i in range(1,4):
-    d['#',i]=i+1,'A'
+for i in range(1,5):
+    for j in range(10,14):
+        pass
+    if i==1:
+        print('i=1')
+        print(d)
+        continue
+    d['#',i]=i+1
+    if i==3:
+        break
+
+print('mark')
 print(d)
