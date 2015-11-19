@@ -17,7 +17,7 @@ for i in range(1,5):
     if i==2:
         print('i=1')
         print(d)
-        continue
+        continue #表示跳过该次循环继续下面的循环，该次循环结果不记录。
     d['#',i]=i+1
     if i==3:
         break
