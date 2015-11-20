@@ -36,15 +36,15 @@
 #while x == 'start' or x == 'START':
 #    print('while')
 ###########################
-x = str(raw_input('Please input start to start this while:'))
-while x == 'start' or x == 'START':
-    print('while')
-    b = str(raw_input('Please input b:'))
-    if b == 'star':
-        print('continue')
-        continue  #表示如果输入字符串为'star'继续循环，而不会像其他输入字符串一样跳出循环；
-    if not b or b != ('star'): #表示如果满足x没有任何输入（比如直接回车）则执行以下命令；
-        print('ending......')
-        break
-else:
-    print('final ending......')
+#x = str(raw_input('Please input start to start this while:'))
+#while x == 'start' or x == 'START':
+#    print('while')
+#    b = str(raw_input('Please input b:'))
+#    if b == 'star':
+#        print('continue')
+#        continue  #表示如果输入字符串为'star'继续循环，而不会像其他输入字符串一样跳出循环；
+#    if not b or b != ('star'): #表示如果满足x没有任何输入（比如直接回车）则执行以下命令；
+#        print('ending......')
+#        break
+#else:
+#    print('final ending......')
