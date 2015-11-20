@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
+#coding=gbk
 
 #a=int(raw_input('Please input sth:'))
 #l=list()
@@ -48,3 +49,39 @@
 #        break
 #else:
 #    print('final ending......')
+while True:
+    in0=float(raw_input('Input money number:'))
+    if in0>0:
+        print('It is too much')
+    if in0==0:
+        print('Why is zero')
+        continue
+    if in0<0:
+        print('This is perfect!')
+        break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
