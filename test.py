@@ -39,5 +39,12 @@
 x = str(raw_input('Please input start to start this while:'))
 while x == 'start' or x == 'START':
     print('while')
-    if not x: #表示如果满足x没有任何输入（比如直接回车）则执行以下命令
+    b = str(raw_input('Please input b:'))
+    if b == 'star':
+        print('continue')
+        continue  #表示如果输入字符串为'star'继续循环，而不会像其他输入字符串一样跳出循环；
+    if not b: #表示如果满足x没有任何输入（比如直接回车）则执行以下命令；
         break
+    print('abc')
+else:
+    print('ending......')
