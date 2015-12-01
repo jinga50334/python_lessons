@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
+#unlimite
 x=int(raw_input('Plesea input a number:'))
 def f(x):
     s=0
