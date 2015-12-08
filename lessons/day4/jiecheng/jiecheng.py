@@ -1,12 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 n=int(raw_input('Please input the number:'))
-def fun(n):
+def f(n):
         if n==1:
             return 1
-        else:
-            for i in range(1,n):
-                fun(n)*
-
-fun(n)
+        return n*f(n-1)
+print(f(n))
 
