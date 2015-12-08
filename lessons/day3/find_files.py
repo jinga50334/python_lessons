@@ -2,14 +2,13 @@
 # -*- coding: UTF-8 -*-
 import os
 
-Path='/home/hufu/python/python_scripts/'
-#Keyfile='py'
-def search_file(Path):
-    os.chdir(Path)
-    for p in os.listdir(os.getcwd()):
-        if os.path.isfile(p):
-            print(os.path.join(os.getcwd(),p))
-        else:
-            search_file(os.path.join(os.getcwd(),p))
-search_file(Path)
+Path=str(raw_input('Please input the dir_path:'))
 
+def search(Path):
+    for p in os.listdir(Path):
+        if os.path.isfile(os.path.join(Path,p)):
+            print(os.path.join(Path,p))
+        else:
+            search(p)
+
+search(Path)
