@@ -9,7 +9,7 @@ def search(Path):
     for p in os.listdir(Path):
         if os.path.isfile(os.path.join(Path,p)):
             print(os.path.join(Path,p))
-        if os.path.isdir(os.path.join(Path,p)):
+        else:
             search(os.path.join(Path,p))
 
 
