@@ -2,10 +2,9 @@
 # -*- coding: UTF-8 -*-
 l=['Dream', 'I', 'a', 'do', 'have', 'have', 'one', 'you']
 def tj(l):
-    lnew=list()
+    l0=[]
     for w in l:
-        lnew.append(w,l.count(w))
-        if 'w,l.count(w)' not in lnew:
-            print(w,l.count(w))
+        l0.append((w,l.count(w)))
+    print(set(l0))
 
 tj(l)
